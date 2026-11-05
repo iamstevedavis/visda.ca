@@ -8,7 +8,7 @@ export const personalInfo = {
   devto: "https://dev.to/iamstevedavis",
   profilePicture: "/profile.jpg",
   heroDescription:
-    "Senior Software Engineer and Tech Lead with 10+ years building cloud-native systems and AI-enabled product workflows. Hands-on with Claude, Codex, OpenClaw, and Conductor, I turn ambiguous customer feedback into prototypes, delivery plans, and production-ready features across backend, cloud, and frontend systems. Additional experience is available on LinkedIn.",
+    "Senior Software Engineer and Tech Lead with 10+ years building cloud-native systems and AI-enabled product workflows. Hands-on with Claude, Codex, OpenClaw, and Conductor, I turn ambiguous customer feedback into prototypes, delivery plans, and production-ready features across backend, cloud, and frontend systems.",
 };
 
 export const workExperience = [
@@ -61,6 +61,42 @@ export const workExperience = [
       "Built offline-first medical applications using React and Redux.",
       "Led client-facing architecture, planning, and requirements discovery, including international on-site work.",
       "Integrated Electronic Health Record (EHR) workflows using SMART on FHIR standards.",
+    ],
+  },
+  {
+    company: "Postmedia I/O",
+    location: "Kitchener, Ontario, Canada",
+    position: "Senior Software Developer",
+    period: "2017 - 2018",
+    achievements: [
+      "Ingested millions of advertising data points from multiple sources simultaneously using Kafka, Redis, and AWS.",
+      "Delivered data analytics and predictive analytics calculations across millions of data points.",
+      "Wrote efficient MongoDB aggregations to deliver data to clients.",
+    ],
+  },
+  {
+    company: "OpenText",
+    location: "Waterloo, Ontario, Canada",
+    position: "Software Developer",
+    period: "2013 - 2017",
+    achievements: [
+      "Built and maintained OpenText Core, a cloud-based, enterprise-grade distributed file sharing system focused on high availability and consistency.",
+      "Worked with senior architects to create Core's first microservice, a metadata tagging service using Kafka and Cassandra.",
+      "Wrote a JavaScript REST API interface for Selenium IDE to bridge the gap between UI and integration testing.",
+      "Acted as Scrum Master for the team when needed.",
+      "Joined after 2011 - 2012 co-op terms in software quality assurance and project process control.",
+    ],
+  },
+  {
+    company: "Linamar",
+    location: "Guelph, Ontario, Canada",
+    position: "Software Developer",
+    period: "2011 - 2013",
+    achievements: [
+      "Converted an application from classic ASP to .NET, improving its performance and usability.",
+      "Designed and developed an employee and project tracking system that gave management visibility and supported weekly IT meetings.",
+      "Interfaced a barcode scanner and printer, saving significant manual work.",
+      "Developed and deployed Microsoft SharePoint web parts.",
     ],
   },
 ];
